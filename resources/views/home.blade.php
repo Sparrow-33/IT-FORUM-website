@@ -6,7 +6,7 @@
     <!-- Section: Design Block -->
     <section class="mb-32 text-gray-800 text-center">
   
-      <h2 class="text-3xl font-bold mb-12 pb-4 text-center">Latest articles</h2>
+      <h2 class="text-3xl font-bold mb-12 pb-4 text-center">Trending posts</h2>
   
       <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
         <div class="mb-6 lg:mb-0">
