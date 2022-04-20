@@ -1,10 +1,10 @@
 @props(['post'=>$post])
 
-<div class="mb-4  p-2 bg-slate-700 rounded-lg ">
-  <p class="mb-2 px-3 py-2 bg-indigo-600 w-fit rounded-full  text-zinc-200 ">Category</p>
+<div class="mb-8  p-2 pt-5  bg-slate-700 rounded-lg relative ">
+  <p class="mb-2 px-3 py-2 bg-indigo-600 w-fit rounded-full opacity-75  text-zinc-200 absolute -top-5 ">Category</p>
  
-    <a href="{{ route('users.posts', $post->user)}}" class="font-bold text-zinc-200 mb-3"><span class="text-gray-500 text-sm ml-2 mr-2">Posted by</span>{{$post->user->name}}</a> <span class="text-gray-500 text-sm ml-2">{{$post->created_at->diffForHumans()}}</span>
-    <h2 class="mb-2 mt-3 text-zinc-200 border-l-zinc-400">{{$post->title}}</h2>
+    <a href="{{ route('users.posts', $post->user)}}" class="font-bold text-zinc-200 mb-3 mt-9"><span class="text-gray-500 text-sm ml-2 mr-2">Posted by</span>{{$post->user->name}}</a> <span class="text-gray-500 text-sm ml-2">{{$post->created_at->diffForHumans()}}</span>
+    <h2 class="mb-2 mt-5 font-semibold text-xl  p-2  text-zinc-400 bg-slate-800 rounded-xl w-fit">{{$post->title}}</h2>
     <p class="mb-2 mt-3 text-zinc-200 border-l-zinc-400">{{$post->body}}</p>
     
     <div class="flex item-center ">

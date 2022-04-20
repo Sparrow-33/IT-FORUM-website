@@ -4,7 +4,7 @@
 <div class="container my-24 px-6 mx-auto">
 
     <!-- Section: Design Block -->
-    <section class="mb-32 text-gray-800 text-center">
+    {{-- <section class="mb-32 text-gray-800 text-center">
   
       <h2 class="text-3xl font-bold mb-12 pb-4 text-center">Trending posts</h2>
   
@@ -106,7 +106,7 @@
         </div>
       </div>
   
-    </section>
+    </section> --}}
     <!-- Section: Design Block -->
   
   </div>
